@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  header nav a.active {
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  main section {
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  main section h2 {
+    margin-top: 0;
+  }
+  
+  main section p {
+    margin-bottom: 2rem;
+  }
+  
+  main section.services .service {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  main section.services .service h3 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  main section.services .service p {
+    width: 100%;
+  }
+  
+  main section.projects .project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  main section.projects .project h3 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  main section.projects .project p {
+    width: 100%;
+    margin-right: 1rem;
+  }
+  
+  main section.projects .project a {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  main section.contact form input[type="text"],
+  main section.contact form input[type="email"],
+  main section.contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  main section.contact form input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    
+    @media (min-width: 600px) {
+    main {
+    justify-content: center;
+    }
+    }  
