@@ -173,9 +173,6 @@ body {
 div.icon_all img {
   
 }
-.icons_all{
-  /* width: 20vw; */
-}
 .floating  {
   /* position: absolute; */
   animation: floating 6s ease-in-out infinite;
@@ -765,6 +762,7 @@ div.icon_all img {
       .message_btn{
         margin-top: -5%;
         translate: -80px;
+        transform: translate(212px , 31rem);
       }
       .span_about_contact {
         font-size: large;
@@ -799,9 +797,6 @@ div.icon_all img {
       .about_left p, .about_right p {
       font-size: 1rem;
       max-width: 50rem;
-      }
-      .message_btn{
-        transform: translate(0px , 31rem);
       }
       .card-container{
         display: block;
@@ -880,34 +875,31 @@ div.icon_all img {
         translate: -80px;
         transform: translate(415px , 24rem);
       }
+      .icons_all{
+        width: 77vw;
+      }
+      #about{
+        height: 122vh;
+      }
+      .about_main{
+        flex-direction: column;
+      }
+      .about_right{
+        max-width: 100%;
+      }
       }
       .span_about_contact {
         font-size: large;
-      }
-      .about_main{
-        display: flex;
-        flex-direction: column;
-      }
-      #about{
-        height: 143vh;
       }
       .about_left {
         width: 100%;
         max-height: 65vh;
       }
-      .about_right {
-        max-width: 100%;
-      }
-      
       .icon {
       height: 3.5rem;
       margin: 18px 50px;
       }
-      .icons_all{
-        width: 77vw;
-        
-        /* translate: -65px; */
-      }
+    
       .about_left h3, .about_right h3 {
       font-size: 1.2rem;
       }
@@ -925,24 +917,17 @@ div.icon_all img {
         width: 100%;
         height: 55%;
         display: flex;
-    flex-direction: column;
     margin-top: 5rem;
     
-      }
-      .card{
-        width: 44vw;
       }
       .card-img {
         width: 100%;
         height: 55%;
       }
-      form{
-        width: 128vw;
-      }
       #send{
         padding: 9px;
         /* margin-left: 22%; */
-        margin-left: 39%;
+        
       }
       .footer p {
         margin-top: -1.5rem;
@@ -995,10 +980,6 @@ div.icon_all img {
       }
       .span_about_contact {
         font-size: large;
-      }
-      .about_main{
-        /* display: flex;
-        flex-direction: column; */
       }
       #about{
         height: 89vh;
